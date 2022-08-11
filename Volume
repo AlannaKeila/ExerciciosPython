@@ -1,0 +1,8 @@
+n = int(input("Insira um número correspondente aos dias: "))
+v = float(input("Insira um valor correspondente ao volume: "))
+
+volume = v * n * 2
+
+volumeInicial = (v/(n*2))
+
+print("O volume inicial deve ser de", volumeInicial, "para que em", n, "dias tenha um volume de",v)
